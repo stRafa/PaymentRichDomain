@@ -1,6 +1,6 @@
 ﻿using PaymentContext.Domain.ValueObjects;
 
-namespace PaymentContext.Tests.Entities
+namespace PaymentContext.Tests
 {
     [TestClass]
     public class StudentTests
