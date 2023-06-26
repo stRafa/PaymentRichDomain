@@ -1,4 +1,6 @@
-﻿using PaymentContext.Domain.ValueObjects;
+﻿using PaymentContext.Domain.Entities;
+using PaymentContext.Domain.Enums;
+using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Tests
 {
@@ -6,13 +8,24 @@ namespace PaymentContext.Tests
     public class StudentTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ShouldReturnErrorWhenHadActiveSubscription()
         {
-            var name = new Name("Teste", "Teste");
-            foreach(var not in name.Notifications)
-            {
-                Console.WriteLine($"{not.Key}: {not.Message}");
-            }
+            var name = new Name("Bruce", "Wayne");
+            var document = new Document("03165674000", EDocumentType.CPF);
+            var email = new Email("batman@balta.com");
+            var student = new Student(name, document, email);
+
+            Assert.Fail();
+        }
+        [TestMethod]
+        public void ShouldReturnErrorWhenHasNoPayment()
+        {
+            var name = new Name("Bruce", "Wayne");
+            var document = new Document("03165674000", EDocumentType.CPF);
+            var email = new Email("batman@balta.com");
+            var student = new Student(name, document, email);
+
+            Assert.Fail();
         }
     }
 }
