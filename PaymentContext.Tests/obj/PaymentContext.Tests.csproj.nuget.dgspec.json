@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
+    "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
-    "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+    "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "projectName": "PaymentContext.Domain",
-        "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
-        "packagesPath": "C:\\Users\\VCP19001481\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\PaymentContext\\PaymentContext.Domain\\obj\\",
+        "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VCP19001481\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
-        "packagesPath": "C:\\Users\\VCP19001481\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VCP19001481\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -138,20 +138,20 @@
         }
       }
     },
-    "C:\\dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
+    "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
         "projectName": "PaymentContext.Tests",
-        "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
-        "packagesPath": "C:\\Users\\VCP19001481\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\PaymentContext\\PaymentContext.Tests\\obj\\",
+        "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VCP19001481\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -166,11 +166,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-                "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+              "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+                "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
               },
-              "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "C:\\dev\\PaymentContext\\PaymentRichDomain\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
